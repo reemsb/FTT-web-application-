@@ -1,0 +1,20 @@
+
+
+ Tennis club de tunis:
+ 36.8360642,9.903306
+ Tennis club megrine:
+ 36.7707559,10.2368519
+ Tennis club ilmenzah:
+36.8402106,10.1607643
+Tennis club de BIzert:
+36.8402479,9.6026501
+Tennis club de Kelibia:
+36.8402479,9.0423474
+Tennis club of sUSAH:
+35.820009,10.6239558
+Tennis club of Monastir:
+35.7777534,10.8185506
+Tennis club de Sfax:
+34.7344134,10.7129463
+Tennis club of Hammamet:
+36.3978511,10.6178368

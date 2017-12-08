@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<!-- Mirrored from tennisclub-html.themerex.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Nov 2016 01:21:54 GMT -->
+<head>
+    <script src="{{ asset('jquery.js') }}"></script>
+    <script>
+        $(document).ready (function() {
+            $("#notif1").hide();
+            $("#notif").hover(function () {
+                $("#notif1").toggle(); })
+            $("#notif1").hover(function () {
+                $("#notif1").toggle(); })
+        })
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <title>Tennis Club</title>
+
+    <link rel="stylesheet" href="{{ asset('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('https://fonts.googleapis.com/css?family=Montserrat:400,700') }}"  type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/fontello/css/fontello.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('js/vendor/revslider/css/settings.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/woocommerce/woocommerce-layout.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/woocommerce/woocommerce-smallscreen.css') }}" type="text/css" media="only screen and (max-width: 768px)" />
+    <link rel="stylesheet" href="{{ asset('css/woocommerce/woocommerce.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/wp-cloudy/wpcloudy.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/wp-cloudy/wpcloudy-anim.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/core.animation.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/shortcodes.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/plugin.woocommerce.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/skin.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('js/core.messages/core.messages.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('js/magnific/magnific-popup.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/core.portfolio.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('js/swiper/swiper.min.css') }}" type="text/css" media="all" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <title>FTT</title>
+
+    <link rel="stylesheet" href="{{ asset('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('https://fonts.googleapis.com/css?family=Montserrat:400,700') }}"  type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/fontello/css/fontello.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('js/vendor/revslider/css/settings.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/woocommerce/woocommerce-layout.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/woocommerce/woocommerce-smallscreen.css') }}" type="text/css" media="only screen and (max-width: 768px)" />
+    <link rel="stylesheet" href="{{ asset('css/woocommerce/woocommerce.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/wp-cloudy/wpcloudy.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/wp-cloudy/wpcloudy-anim.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/core.animation.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/shortcodes.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/plugin.woocommerce.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/skin.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('js/core.messages/core.messages.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('js/magnific/magnific-popup.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/core.portfolio.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('js/swiper/swiper.min.css') }}" type="text/css" media="all" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://www.hypertrends.com/xmlrpc.php">
+
+
+    <!-- This site is optimized with the Yoast SEO plugin v3.4.2 - https://yoast.com/wordpress/plugins/seo/ -->
+    <meta name="robots" content="noindex,follow"/>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="object" />
+    <meta property="og:title" content="Page not found - HyperTrends Global Inc." />
+    <meta property="og:site_name" content="HyperTrends Global Inc." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Page not found - HyperTrends Global Inc." />
+    <meta name="twitter:site" content="@anupmarwadi" />
+    <!-- / Yoast SEO plugin. -->
+
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="alternate" type="application/rss+xml" title="HyperTrends Global Inc. &raquo; Feed" href="http://www.hypertrends.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="HyperTrends Global Inc. &raquo; Comments Feed" href="http://www.hypertrends.com/comments/feed/" />
+    <link rel="alternate" type="text/calendar" title="HyperTrends Global Inc. &raquo; iCal Feed" href="http://www.hypertrends.com/events/?ical=1" />
+    <script type="text/javascript">
+        window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.hypertrends.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+        !function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wpo-woocommerce-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/css/woocommerce.css?ver=1.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css'  href='http://www.hypertrends.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css'  href='http://www.hypertrends.com/wp-content/plugins/revslider/rs-plugin/css/settings.css?ver=4.6.92' type='text/css' media='all' />
+    <style id='rs-plugin-settings-inline-css' type='text/css'>
+        .tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+    </style>
+    <link rel='stylesheet' id='base-animation-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/css/animation.css?ver=4.6.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='theme-style-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/style.css?ver=4.6.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-default-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/css/bootstrap.css?ver=4.6.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='template-default-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/css/template.css?ver=4.6.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='owlcaousel-css-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/js/owl-carousel/owl.carousel.css?ver=4.6.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='base-fonticon-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/css/font-awesome.css?ver=4.6.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='prettyPhoto-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/css/prettyPhoto.css?ver=4.6.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='mc4wp-form-basic-css'  href='http://www.hypertrends.com/wp-content/plugins/mailchimp-for-wp/assets/css/form-basic.min.css?ver=4.0.2' type='text/css' media='all' />
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var tribe_events_linked_posts = {"post_types":{"tribe_venue":"venue","tribe_organizer":"organizer"}};
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='http://www.hypertrends.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+    <script type='text/javascript' src='http://www.hypertrends.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='http://www.hypertrends.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?ver=4.6.92'></script>
+    <script type='text/javascript' src='http://www.hypertrends.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=4.6.92'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/net\/files\/2010\/04\/modal.png?wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"http:\/\/www.hypertrends.com","is_cart":"","cart_redirect_after_add":"no"};
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='//www.hypertrends.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.6.4'></script>
+    <script type='text/javascript' src='http://www.hypertrends.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=4.12'></script>
+    <script type='text/javascript' src='http://www.hypertrends.com/wp-content/themes/octopus/js/bootstrap.min.js?ver=4.6.1'></script>
+    <link rel='https://api.w.org/' href='http://www.hypertrends.com/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.hypertrends.com/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.hypertrends.com/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 4.6.1" />
+    <meta name="generator" content="WooCommerce 2.6.4" />
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            // CUSTOM AJAX CONTENT LOADING FUNCTION
+            var ajaxRevslider = function(obj) {
+
+                // obj.type : Post Type
+                // obj.id : ID of Content to Load
+                // obj.aspectratio : The Aspect Ratio of the Container / Media
+                // obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+
+                var content = "";
+
+                data = {};
+
+                data.action = 'revslider_ajax_call_front';
+                data.client_action = 'get_slider_html';
+                data.token = '7545e81fc0';
+                data.type = obj.type;
+                data.id = obj.id;
+                data.aspectratio = obj.aspectratio;
+
+                // SYNC AJAX REQUEST
+                jQuery.ajax({
+                    type:"post",
+                    url:"http://www.hypertrends.com/wp-admin/admin-ajax.php",
+                    dataType: 'json',
+                    data:data,
+                    async:false,
+                    success: function(ret, textStatus, XMLHttpRequest) {
+                        if(ret.success == true)
+                            content = ret.data;
+                    },
+                    error: function(e) {
+                        console.log(e);
+                    }
+                });
+
+                // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+                return content;
+            };
+
+            // CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+            var ajaxRemoveRevslider = function(obj) {
+                return jQuery(obj.selector+" .rev_slider").revkill();
+            };
+
+            // EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+            var extendessential = setInterval(function() {
+                if (jQuery.fn.tpessential != undefined) {
+                    clearInterval(extendessential);
+                    if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
+                        jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});
+                        // type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+                        // func: the Function Name which is Called once the Item with the Post Type has been clicked
+                        // killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+                        // openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+                    }
+                }
+            },30);
+        });
+    </script>
+    <style type="text/css">.recentcomments a{display:inline !important;padding:100 !important;margin:100 !important;}</style>
+    <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://www.hypertrends.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://www.hypertrends.com/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]-->			<script type="text/javascript">
+        var ajaxurl = 'http://www.hypertrends.com/wp-admin/admin-ajax.php';
+    </script>
+    <link rel="icon" href="http://www.hypertrends.com/wp-content/uploads/2015/08/htLogoSquareGreen-150x150.jpg" sizes="32x32" />
+    <link rel="icon" href="http://www.hypertrends.com/wp-content/uploads/2015/08/htLogoSquareGreen-300x300.jpg" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="http://www.hypertrends.com/wp-content/uploads/2015/08/htLogoSquareGreen-180x180.jpg" />
+    <meta name="msapplication-TileImage" content="http://www.hypertrends.com/wp-content/uploads/2015/08/htLogoSquareGreen-300x300.jpg" />
+
+    <!-- BEGIN GADWP v4.9.3.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+    <script type="text/javascript">
+        (function($){
+            $(window).load(function() {
+
+                //Track Downloads
+                $('a').filter(function() {
+                    return this.href.match(/.*\.(zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|rar*)(\?.*)?$/);
+                }).click(function(e) {
+                    ga('send','event', 'download', 'click', this.href);
+                });
+
+                //Track Mailto
+                $('a[href^="mailto"]').click(function(e) {
+                    ga('send','event', 'email', 'send', this.href);
+                });
+
+                //Track Outbound Links
+                $('a[href^="http"]').filter(function() {
+                    if (!this.href.match(/.*\.(zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|rar*)(\?.*)?$/)){
+                        if (this.href.indexOf('hypertrends.com') == -1) return this.href;
+                    }
+                }).click(function(e) {
+                    ga('send','event', 'outbound', 'click', this.href);
+                });
+            });
+        })(jQuery);
+    </script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-5598670-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <!-- END GADWP Universal Tracking -->
+
+    <!--[if lt IE 9]>
+    <script src="http://www.hypertrends.com/wp-content/themes/octopus/inc/assets/js/html5.js"></script>
+    <script src="http://www.hypertrends.com/wp-content/themes/octopus/inc/assets/js/respond.js"></script>
+    <![endif]-->
+    <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+<style>
+    #reserve
+    {
+        align: center;
+    }
+</style>
+</head>
+
+<body class="home page tennisclub_body body_style_wide body_filled article_style_stretch top_panel_show top_panel_above sidebar_hide">
+</div>
+<!-- Side block with weather plugin -->
+<div id="custom_side_block" class="custom_side_block opened">
+    <span id="csb_toggle" class="icon-rain"></span>
+    <span class="icon-cancel-1"></span>
+    <div>
+        <div id="wpc-weather-id-1" class="wpc-weather-id">
+            <div class="wpc-loading-spinner">
+                <div id="wpc-weather" class="small color_white">
+                    <div class="now">
+                        <div class="location_name">Tunisie</div>
+                        <div class="time_symbol climacon">
+                            <svg id="cloudFill" class="climacon climacon_cloudFill" enable-background="new 15 15 70 70" viewBox="15 15 70 70" y="0px" x="0px">
+                                <g class="climacon_iconWrap climacon_iconWrap-cloud">
+                                    <g class="climacon_componentWrap climacon_componentWrap_cloud">
+                                        <path class="climacon_component climacon_component-stroke climacon_component-stroke_cloud" d="M43.945,65.639c-8.835,0-15.998-7.162-15.998-15.998c0-8.836,7.163-15.998,15.998-15.998c6.004,0,11.229,3.312,13.965,8.203c0.664-0.113,1.338-0.205,2.033-0.205c6.627,0,11.998,5.373,11.998,12c0,6.625-5.371,11.998-11.998,11.998C57.168,65.639,47.143,65.639,43.945,65.639z"></path>
+                                        <path class="climacon_component climacon_component-fill climacon_component-fill_cloud" d="M59.943,61.639c4.418,0,8-3.582,8-7.998c0-4.417-3.582-8-8-8c-1.601,0-3.082,0.481-4.334,1.291c-1.23-5.316-5.973-9.29-11.665-9.29c-6.626,0-11.998,5.372-11.998,11.999c0,6.626,5.372,11.998,11.998,11.998C47.562,61.639,56.924,61.639,59.943,61.639z" fill="#FFFFFF"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="time_temperature">22</div>
+                    </div>
+                    <div class="short_condition">overcast clouds</div>
+                    <div class="forecast">
+                        <div class="first">
+                            <div class="day">Fri</div>
+                            <div class="symbol climacon w800"></div>
+                            <div class="temp_min">15</div>
+                            <div class="temp_max">
+                                <span class="wpc-highlight">27</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Side block with weather plugin -->
+<a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a>
+
+<script type="text/javascript" src="{{ asset('js/jquery/jquery.js') }}"></script>
+
+<script type="text/javascript" src="{{ asset('js/_packed.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/global.min.js') }}"></script>
+
+<script type="text/javascript" src="{{ asset('js/vendor/revslider/jquery.themepunch.tools.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/vendor/revslider/jquery.themepunch.revolution.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/vendor/revslider/extensions/revolution.extension.slideanims.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/vendor/revslider/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/vendor/revslider/extensions/revolution.extension.navigation.min.js') }}"></script>
+
+<script type="text/javascript" src="{{ asset('js/vendor/woocommerce/woocommerce.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/vendor/woocommerce/cart-fragments.min.js') }}"></script>
+
+<script type="text/javascript" src="{{ asset('js/core.utils.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/core.init.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/theme.init.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/shortcodes.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/core.messages/core.messages.min.js') }}"></script>
+
+<script type="text/javascript" src="{{ asset('js/swiper/swiper.min.js') }}"></script>
+
+<script type="text/javascript" src="{{ asset('http://maps.google.com/maps/api/js?key=') }}"></script>
+<script type="text/javascript" src="{{ asset('js/core.googlemap.min.js') }}"></script>
+
+</body>
+
+
+<!-- Mirrored from tennisclub-html.themerex.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Nov 2016 01:22:34 GMT -->
+</html><!DOCTYPE html>
+<html lang="en-US">
+
+
+<!-- Mirrored from tennisclub-html.themerex.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Nov 2016 01:21:54 GMT -->
+<head>
+    <script src="{{ asset('jquery.js') }}"></script>
+    <script>
+        $(document).ready (function() {
+            $("#notif1").hide();
+            $("#notif").hover(function () {
+                $("#notif1").toggle(); })
+            $("#notif1").hover(function () {
+                $("#notif1").toggle(); })
+        })
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <title>Tennis Club</title>
+
+    <link rel="stylesheet" href="{{ asset('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('https://fonts.googleapis.com/css?family=Montserrat:400,700') }}"  type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/fontello/css/fontello.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('js/vendor/revslider/css/settings.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/woocommerce/woocommerce-layout.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/woocommerce/woocommerce-smallscreen.css') }}" type="text/css" media="only screen and (max-width: 768px)" />
+    <link rel="stylesheet" href="{{ asset('css/woocommerce/woocommerce.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/wp-cloudy/wpcloudy.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/wp-cloudy/wpcloudy-anim.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/core.animation.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/shortcodes.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/plugin.woocommerce.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/skin.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('js/core.messages/core.messages.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('js/magnific/magnific-popup.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/core.portfolio.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('js/swiper/swiper.min.css') }}" type="text/css" media="all" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <title>FTT</title>
+
+    <link rel="stylesheet" href="{{ asset('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('https://fonts.googleapis.com/css?family=Montserrat:400,700') }}"  type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/fontello/css/fontello.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('js/vendor/revslider/css/settings.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/woocommerce/woocommerce-layout.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/woocommerce/woocommerce-smallscreen.css') }}" type="text/css" media="only screen and (max-width: 768px)" />
+    <link rel="stylesheet" href="{{ asset('css/woocommerce/woocommerce.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/wp-cloudy/wpcloudy.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/wp-cloudy/wpcloudy-anim.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/core.animation.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('css/shortcodes.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/plugin.woocommerce.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/skin.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('js/core.messages/core.messages.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('js/magnific/magnific-popup.min.css') }}" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="{{ asset('css/core.portfolio.min.css') }}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset('js/swiper/swiper.min.css') }}" type="text/css" media="all" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://www.hypertrends.com/xmlrpc.php">
+
+
+    <!-- This site is optimized with the Yoast SEO plugin v3.4.2 - https://yoast.com/wordpress/plugins/seo/ -->
+    <meta name="robots" content="noindex,follow"/>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="object" />
+    <meta property="og:title" content="Page not found - HyperTrends Global Inc." />
+    <meta property="og:site_name" content="HyperTrends Global Inc." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Page not found - HyperTrends Global Inc." />
+    <meta name="twitter:site" content="@anupmarwadi" />
+    <!-- / Yoast SEO plugin. -->
+
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="alternate" type="application/rss+xml" title="HyperTrends Global Inc. &raquo; Feed" href="http://www.hypertrends.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="HyperTrends Global Inc. &raquo; Comments Feed" href="http://www.hypertrends.com/comments/feed/" />
+    <link rel="alternate" type="text/calendar" title="HyperTrends Global Inc. &raquo; iCal Feed" href="http://www.hypertrends.com/events/?ical=1" />
+    <script type="text/javascript">
+        window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.hypertrends.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+        !function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wpo-woocommerce-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/css/woocommerce.css?ver=1.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css'  href='http://www.hypertrends.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css'  href='http://www.hypertrends.com/wp-content/plugins/revslider/rs-plugin/css/settings.css?ver=4.6.92' type='text/css' media='all' />
+    <style id='rs-plugin-settings-inline-css' type='text/css'>
+        .tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+    </style>
+    <link rel='stylesheet' id='base-animation-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/css/animation.css?ver=4.6.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='theme-style-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/style.css?ver=4.6.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-default-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/css/bootstrap.css?ver=4.6.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='template-default-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/css/template.css?ver=4.6.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='owlcaousel-css-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/js/owl-carousel/owl.carousel.css?ver=4.6.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='base-fonticon-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/css/font-awesome.css?ver=4.6.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='prettyPhoto-css'  href='http://www.hypertrends.com/wp-content/themes/octopus/css/prettyPhoto.css?ver=4.6.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='mc4wp-form-basic-css'  href='http://www.hypertrends.com/wp-content/plugins/mailchimp-for-wp/assets/css/form-basic.min.css?ver=4.0.2' type='text/css' media='all' />
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var tribe_events_linked_posts = {"post_types":{"tribe_venue":"venue","tribe_organizer":"organizer"}};
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='http://www.hypertrends.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+    <script type='text/javascript' src='http://www.hypertrends.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='http://www.hypertrends.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?ver=4.6.92'></script>
+    <script type='text/javascript' src='http://www.hypertrends.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=4.6.92'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/net\/files\/2010\/04\/modal.png?wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"http:\/\/www.hypertrends.com","is_cart":"","cart_redirect_after_add":"no"};
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='//www.hypertrends.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.6.4'></script>
+    <script type='text/javascript' src='http://www.hypertrends.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=4.12'></script>
+    <script type='text/javascript' src='http://www.hypertrends.com/wp-content/themes/octopus/js/bootstrap.min.js?ver=4.6.1'></script>
+    <link rel='https://api.w.org/' href='http://www.hypertrends.com/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.hypertrends.com/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.hypertrends.com/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 4.6.1" />
+    <meta name="generator" content="WooCommerce 2.6.4" />
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            // CUSTOM AJAX CONTENT LOADING FUNCTION
+            var ajaxRevslider = function(obj) {
+
+                // obj.type : Post Type
+                // obj.id : ID of Content to Load
+                // obj.aspectratio : The Aspect Ratio of the Container / Media
+                // obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+
+                var content = "";
+
+                data = {};
+
+                data.action = 'revslider_ajax_call_front';
+                data.client_action = 'get_slider_html';
+                data.token = '7545e81fc0';
+                data.type = obj.type;
+                data.id = obj.id;
+                data.aspectratio = obj.aspectratio;
+
+                // SYNC AJAX REQUEST
+                jQuery.ajax({
+                    type:"post",
+                    url:"http://www.hypertrends.com/wp-admin/admin-ajax.php",
+                    dataType: 'json',
+                    data:data,
+                    async:false,
+                    success: function(ret, textStatus, XMLHttpRequest) {
+                        if(ret.success == true)
+                            content = ret.data;
+                    },
+                    error: function(e) {
+                        console.log(e);
+                    }
+                });
+
+                // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+                return content;
+            };
+
+            // CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+            var ajaxRemoveRevslider = function(obj) {
+                return jQuery(obj.selector+" .rev_slider").revkill();
+            };
+
+            // EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+            var extendessential = setInterval(function() {
+                if (jQuery.fn.tpessential != undefined) {
+                    clearInterval(extendessential);
+                    if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
+                        jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});
+                        // type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+                        // func: the Function Name which is Called once the Item with the Post Type has been clicked
+                        // killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+                        // openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+                    }
+                }
+            },30);
+        });
+    </script>
+    <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+    <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://www.hypertrends.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://www.hypertrends.com/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]-->			<script type="text/javascript">
+        var ajaxurl = 'http://www.hypertrends.com/wp-admin/admin-ajax.php';
+    </script>
+    <link rel="icon" href="http://www.hypertrends.com/wp-content/uploads/2015/08/htLogoSquareGreen-150x150.jpg" sizes="32x32" />
+    <link rel="icon" href="http://www.hypertrends.com/wp-content/uploads/2015/08/htLogoSquareGreen-300x300.jpg" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="http://www.hypertrends.com/wp-content/uploads/2015/08/htLogoSquareGreen-180x180.jpg" />
+    <meta name="msapplication-TileImage" content="http://www.hypertrends.com/wp-content/uploads/2015/08/htLogoSquareGreen-300x300.jpg" />
+
+    <!-- BEGIN GADWP v4.9.3.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+    <script type="text/javascript">
+        (function($){
+            $(window).load(function() {
+
+                //Track Downloads
+                $('a').filter(function() {
+                    return this.href.match(/.*\.(zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|rar*)(\?.*)?$/);
+                }).click(function(e) {
+                    ga('send','event', 'download', 'click', this.href);
+                });
+
+                //Track Mailto
+                $('a[href^="mailto"]').click(function(e) {
+                    ga('send','event', 'email', 'send', this.href);
+                });
+
+                //Track Outbound Links
+                $('a[href^="http"]').filter(function() {
+                    if (!this.href.match(/.*\.(zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|rar*)(\?.*)?$/)){
+                        if (this.href.indexOf('hypertrends.com') == -1) return this.href;
+                    }
+                }).click(function(e) {
+                    ga('send','event', 'outbound', 'click', this.href);
+                });
+            });
+        })(jQuery);
+    </script>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-5598670-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <!-- END GADWP Universal Tracking -->
+
+    <!--[if lt IE 9]>
+    <script src="http://www.hypertrends.com/wp-content/themes/octopus/inc/assets/js/html5.js"></script>
+    <script src="http://www.hypertrends.com/wp-content/themes/octopus/inc/assets/js/respond.js"></script>
+    <![endif]-->
+    <noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+
+</head>
+
+<body class="home page tennisclub_body body_style_wide body_filled article_style_stretch top_panel_show top_panel_above sidebar_hide">
+
+<div class="body_wrap">
+
+    <div class="page_wrap">
+        <!-- Header -->
+        <header class="top_panel_wrap top_panel_style_3 scheme_original">
+            <div class="top_panel_wrap_inner top_panel_inner_style_3 top_panel_position_above">
+                <!-- User panel -->
+                <div class="top_panel_top">
+                    <div class="content_wrap clearfix">
+                        <a href="#" /><i class="fa fa-sign-in"></i> <span class="label label-warning">connecté en tant que {{ app.user.username }}</span></a>
+
+
+                        <div class="top_panel_top_user_area">
+                            <ul id="menu_user" class="menu_user_nav">
+
+
+
+                                <br>
+                                <span class="button blue"><a href="{{ path("my_app_user_logout") }}"/><i class="fa fa-power-off"></i> Logout</a> </span>
+
+
+
+
+                                </li>
+                                <li class="top_panel_top_search" style="right: 80%" >
+                                    <div class="search_wrap search_style_regular search_state_fixed">
+                                        <div class="search_form_wrap" >
+                                            <form role="search" method="get" class="search_form" action="#">
+
+                                                <button type="submit" class="search_submit icon-magnifier" title="Start search"></button>
+                                                <input type="text" class="search_field" placeholder="Search" value="" name="s" />
+
+                                            </form>
+
+                                        </div>
+
+                                        <div class="search_results widget_area scheme_original">
+                                            <a class="search_results_close icon-cancel"></a>
+                                            <div class="search_results_content"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- /User panel -->
+                <!-- Top Menu -->
+                <div class="top_panel_middle">
+                    <div class="content_wrap">
+                        <div class="contact_logo">
+                            <div class="logo">
+                                <a href="index-2.html">
+                                    <img src="{{ asset('images/logo.png') }}" class="logo_main" alt="">
+                                    <img src="{{ asset('images/logo.png') }}" class="logo_fixed" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="menu_main_social_wrap">
+
+
+                            <div class="menu_main_wrap">
+                                <a href="#" class="menu_main_responsive_button icon-menu"></a>
+                                <section class="wpo-wrapper ">
+                                    <!-- HEADER -->
+                                    <header id="wpo-header" class="wpo-header" style="left:30%">
+                                        <div class="container-inner header-wrap">
+                                            <div class="container header-wrapper-inner header-quick-action">
+                                                <!-- MENU -->
+                                                <div class="wpo-mainmenu-wrap col-lg-10 col-md-10 col-sm-12 col-xs-12 position-static">
+
+                                                    <div class="mainmenu-content-wapper">
+                                                        <div class="mainmenu-content text-right">
+                                                            <nav id="wpo-mainnav" data-style='light' data-duration="400" class="padding-large position-static  wpo-megamenu slide animate navbar navbar-mega" role="navigation">
+
+                                                                <div class="collapse navbar-collapse navbar-ex1-collapse space-padding-0">
+                                                                    <ul id="main-menu" class="nav navbar-nav megamenu">
+                                                                        <li class="menu-item-7602 level-0"><a title="Home" href="http://www.hypertrends.com/">ACCUEIL</a></li>
+
+                                                                        <li class="menu-item-7682 level-0 aligned-left"><a href="http://www.hypertrends.com/software-development-services-san-diego/" class="dropdown-toggle"  data-hover="dropdown" data-toggle="dropdown">FTT <b class="caret"></b></a><div class="dropdown-menu" >
+                                                                                <div class="dropdown-menu-inner">
+                                                                                    <div class="wpb-container vc_custom_1457932856355" >
+                                                                                        <div class="wpb-inner container-mega" >
+                                                                                            <div class="row">
+                                                                                                <div class="col-sm-12 wpb_column vc_column_container">
+                                                                                                    <div class="wpb_wrapper ">
+                                                                                                        <div class="vc_wp_custommenu wpb_content_element"><div class="widget widget_nav_menu">
+                                                                                                                <div class="menu-software-services-container"><ul id="menu-software-services" class="menu">
+                                                                                                                        <li id="menu-item-8143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8143"><a href="http://www.hypertrends.com/web-application-development-services/">Statuts et règlements de la FTT</a></li>
+                                                                                                                        <li id="menu-item-8144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8144"><a href="http://www.hypertrends.com/mobile-application-development-services/">organigramme de la ftt</a></li>
+                                                                                                                        <li id="menu-item-8145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8145"><a href="http://www.hypertrends.com/api-development-services/">clubs affiliés</a></li>
+                                                                                                                        <li id="menu-item-8168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8168"><a href="http://www.hypertrends.com/cloud-development-services/">Joueurs affiliés</a></li>
+                                                                                                                    </ul>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li class="menu-item-7602 level-0"><a title="Home" href="http://www.hypertrends.com/">Sanction</a></li>
+                                                                        <li class="menu-item-8275 level-0"><a href="http://www.hypertrends.com/solutions/">Tournoi</a></li>
+                                                                        <li class="menu-item-8275 level-0"><a href="http://www.hypertrends.com/solutions/">Match</a></li>
+
+                                                                        <li class="menu-item-7682 level-0 aligned-left">
+                                                                            <a href="http://www.hypertrends.com/software-development-services-san-diego/" class="dropdown-toggle"  data-hover="dropdown" data-toggle="dropdown">Services <b class="caret"></b>
+                                                                            </a><div class="dropdown-menu" >
+                                                                                <div class="dropdown-menu-inner"><div class="wpb-container vc_custom_1457932856355" ><div class="wpb-inner container-mega" ><div class="row"><div class="col-sm-12 wpb_column vc_column_container">
+                                                                                                    <div class="wpb_wrapper ">
+                                                                                                        <div class="vc_wp_custommenu wpb_content_element"><div class="widget widget_nav_menu"><div class="menu-software-services-container"><ul id="menu-software-services" class="menu"><li id="menu-item-8143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8143"><a href="http://www.hypertrends.com/web-application-development-services/">Paris</a></li>
+                                                                                                                        <li id="menu-item-8144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8144"><a href="{{ path('AjoutReservation')}}">reservation des tickets </a></li>
+                                                                                                                        <li id="menu-item-8145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8145"><a href="http://www.hypertrends.com/api-development-services/">évenements</a></li>
+                                                                                                                        <li id="menu-item-8145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8145"><a href="http://www.hypertrends.com/api-development-services/">Concours</a></li>
+                                                                                                                        <li id="menu-item-8145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8145"><a href="http://www.hypertrends.com/api-development-services/">formation</a></li>
+
+
+                                                                                                                    </ul></div></div></div>
+                                                                                                    </div>
+                                                                                                </div></div></div></div></div></div></li>
+
+                                                                        <li class="menu-item-8065 level-0"><a href="http://www.hypertrends.com/contact/">Contact</a></li>
+
+                                                                    </ul>
+                                                                </div>
+                                                            </nav>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <!-- //MENU -->
+
+                                            </div>
+                                            <!-- // Setting -->
+                                        </div>
+
+                                    </header>
+                                    <!-- //HEADER -->
+
+
+                                </section>
+                                <!-- END Wrapper -->
+                                <div id="wpo-off-canvas" class="wpo-off-canvas sidebar-offcanvas hidden-lg hidden-md">
+                                    <div class="wpo-off-canvas-body">
+                                        <div class="offcanvas-head bg-primary">
+                                            <button type="button" class="btn btn-offcanvas btn-toggle-canvas btn-default" data-toggle="offcanvas">
+                                                <i class="fa fa-close"></i>
+                                            </button>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                </section>
+
+                                <link rel='stylesheet' id='js_composer_front-css'  href='http://www.hypertrends.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=4.12' type='text/css' media='all' />
+                                <script type='text/javascript' src='http://www.hypertrends.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+                                <script type='text/javascript'>
+                                    /* <![CDATA[ */
+                                    var _wpcf7 = {"loaderUrl":"http:\/\/www.hypertrends.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"sending":"Sending ..."};
+                                    /* ]]> */
+                                </script>
+                                <script type='text/javascript' src='http://www.hypertrends.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.5'></script>
+                                <script type='text/javascript' src='//www.hypertrends.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+                                <script type='text/javascript'>
+                                    /* <![CDATA[ */
+                                    var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/net\/files\/2010\/04\/modal.png?wc-ajax=%%endpoint%%"};
+                                    /* ]]> */
+                                </script>
+                                <script type='text/javascript' src='//www.hypertrends.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.6.4'></script>
+                                <script type='text/javascript' src='//www.hypertrends.com/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1'></script>
+                                <script type='text/javascript'>
+                                    /* <![CDATA[ */
+                                    var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/net\/files\/2010\/04\/modal.png?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+                                    /* ]]> */
+                                </script>
+                                <script type='text/javascript' src='//www.hypertrends.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.6.4'></script>
+                                <script type='text/javascript' src='http://www.hypertrends.com/wp-content/themes/octopus/js/woocommerce.js?ver=4.6.1'></script>
+                                <script type='text/javascript' src='http://www.hypertrends.com/wp-content/themes/octopus/js/jquery.prettyPhoto.js?ver=4.6.1'></script>
+                                <script type='text/javascript' src='http://www.hypertrends.com/wp-content/themes/octopus/js/owl-carousel/owl.carousel.min.js?ver=4.6.1'></script>
+                                <script type='text/javascript' src='http://www.hypertrends.com/wp-content/themes/octopus/js/jquery.counterup.min.js?ver=4.6.1'></script>
+                                <script type='text/javascript' src='http://www.hypertrends.com/wp-content/themes/octopus/js/jpreloader.min.js?ver=4.6.1'></script>
+                                <script type='text/javascript' src='http://www.hypertrends.com/wp-content/themes/octopus/js/isotope.pkgd.min.js?ver=4.6.1'></script>
+                                <script type='text/javascript' src='http://www.hypertrends.com/wp-content/themes/octopus/js/main.js?ver=4.6.1'></script>
+                                <script type='text/javascript' src='http://www.hypertrends.com/wp-includes/js/wp-embed.min.js?ver=4.6.1'></script>
+                                <script type='text/javascript' src='http://www.hypertrends.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=4.12'></script>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /Top Menu -->
+
+        </header>
+        <!-- /Header -->
+        <!-- Header Mobile -->
+        <div class="header_mobile">
+            <div class="content_wrap">
+                <div class="menu_button icon-menu"></div>
+                <div class="logo">
+                    <a href="index-2.html">
+                        <img src="{{ asset('images/logo.png') }}" class="logo_main" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="side_wrap">
+                <div class="close">Close</div>
+                <div class="panel_top">
+                    <nav class="menu_main_nav_area">
+                        <ul id="menu_main_mobile" class="menu_main_nav">
+                            <li class="menu-item current-menu-ancestor current-menu-parent menu-item-has-children">
+                                <a href="#">Home</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item current-menu-item current_page_item">
+                                        <a href="index-2.html">Home 1</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="homepage-2.html">Home 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">Pages</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="typography.html">Typography</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="shortcodes.html">Shortcodes</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="page-404.html">404</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="about-us.html">About Us</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="our-team.html">Our Team</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="player-profile.html">Player&#8217;s Profile</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="reservation.html">Reservation</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="events-calendar.html">Tournaments</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="membership.html">Membership</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="tennis-lessons.html">Lessons</a>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">News</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item">
+                                        <a href="blog-classic.html">Classic</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="blog-colored-excerpt.html">Colored Excerpt</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="blog-masonry.html">Masonry</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="blog-portfolio.html">Portfolio</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="post-formats.html">Post Formats</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item">
+                                <a href="shop.html">Pro Shop</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="contacts.html">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="search_wrap search_style_regular search_state_fixed">
+                        <div class="search_form_wrap">
+                            <form method="get" class="search_form" action="#">
+                                <button type="submit" class="search_submit icon-magnifier" title="Start search"></button>
+                                <input type="text" class="search_field" placeholder="Search" value="" name="s" />
+                            </form>
+                        </div>
+                        <div class="search_results widget_area scheme_original">
+                            <a class="search_results_close icon-cancel"></a>
+                            <div class="search_results_content"></div>
+                        </div>
+                    </div>
+                    <div class="login">
+                        <a href="#popup_login" class="popup_link popup_login_link">Login</a>
+                    </div>
+                </div>
+                <div class="panel_bottom">
+                    <div class="contact_socials">
+                        <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_small">
+                            <div class="sc_socials_item">
+                                <a href="#" target="_blank" class="social_icons social_twitter">
+                                    <span class="icon-twitter"></span>
+                                </a>
+                            </div>
+                            <div class="sc_socials_item">
+                                <a href="#" target="_blank" class="social_icons social_facebook">
+                                    <span class="icon-facebook"></span>
+                                </a>
+                            </div>
+                            <div class="sc_socials_item">
+                                <a href="#" target="_blank" class="social_icons social_gplus">
+                                    <span class="icon-gplus"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top_panel_link">
+                    <a href="court-reservation.html">Reserve a court</a>
+                </div>
+            </div>
+            <div class="mask"></div>
+        </div>
+        <!-- /Header Mobile -->
+        <!-- Revolution Slider section -->
+       <center> <div id="reserve"class="slider_wrap slider_fullwide slider_engine_revo slider_alias_TC-Slider1" >
+            <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container">
+                <!-- START REVOLUTION SLIDER 5.1 fullwidth mode -->
+                <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" data-version="5.1">
+                    <ul>
+                        <!-- SLIDE 1 -->
+                        <li data-index="rs-1" data-transition="fade,notransition,crossfade,fadethroughdark,fadethroughlight,fadethroughtransparent,slidingoverlaydown,slidingoverlayright,random" data-slotamount="default,default,default,default,default,default,default,default,default" data-easein="default,default,default,default,default,default,default,default,default" data-easeout="default,default,default,default,default,default,default,default,default" data-masterspeed="300,default,default,default,default,default,default,default,default" data-thumb="images/slide1_bg-100x50.jpg" data-rotate="0,0,0,0,0,0,0,0,0" data-saveperformance="off" data-title="Slide" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="{{ asset('images/slide1_bg.jpg') }}" alt="" width="1800" height="584" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption Fashion-BigDisplay tp-resizeme" id="slide-1-layer-2" data-x="313" data-y="124" data-width="['627']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:bottom;s:1200;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;e:Cubic.easeOut;s:300;e:Cubic.easeOut;" data-start="500" data-splitin="lines" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.1">sport for healthy lifetime</div>
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption Fashion-BigDisplay  tp-resizeme" id="slide-1-layer-1" data-x="274" data-y="95" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:2300;e:Power4.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="600" data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05">tennis</div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption tp-resizeme" id="slide-1-layer-7" data-x="315" data-y="305" data-width="['615']" data-height="['auto']" data-visibility="['on','on','off','off']" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1800;e:Power4.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-captionhidden="on">Like tennis at any level, tennis as an adult is fun, social, competitive, healthy - it can truly be anything you want it to be.
+                            </div>
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption rev-btn" id="slide-1-layer-9" data-x="316" data-y="385" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:0;e:Linear.easeNone;" data-style_hover="c:rgba(255, 255, 255, 1.00);bg:rgba(129, 171, 27, 1.00);cursor:pointer;" data-transform_in="opacity:0;s:600;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="1700" data-splitin="none" data-splitout="none" data-responsive_offset="on">Learn more</div>
+                        </li>
+                        <!-- SLIDE 2 -->
+                        <li data-index="rs-2" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/slide2_bg-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="{{ asset('images/slide2_bg.jpg') }}" alt="" width="1800" height="584" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption Fashion-BigDisplay tp-resizeme" id="slide-2-layer-2" data-x="961" data-y="127" data-width="['547']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:bottom;s:1200;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;e:Cubic.easeOut;s:300;e:Cubic.easeOut;" data-start="500" data-splitin="lines" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.1">play with our instructors</div>
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption Fashion-BigDisplay tp-resizeme" id="slide-2-layer-3" data-x="610" data-y="79" data-width="['932']" data-height="['121']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:2300;e:Power4.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="500" data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05">Welcome</div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption tp-resizeme" id="slide-2-layer-4" data-x="center" data-hoffset="338" data-y="309" data-width="['492']" data-height="['auto']" data-visibility="['on','on','off','off']" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1800;e:Power4.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-captionhidden="on">Browse our website to find a certified tennis teacher, sign up for our local tournaments and games and raise your level</div>
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption rev-btn" id="slide-2-layer-7" data-x="center" data-hoffset="340" data-y="386" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:0;e:Linear.easeNone;" data-style_hover="c:rgba(255, 255, 255, 1.00);bg:rgba(11, 27, 48, 1.00);cursor:pointer;" data-transform_in="opacity:0;s:600;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="1700" data-splitin="none" data-splitout="none" data-responsive_offset="on">Learn more
+                            </div>
+                        </li>
+                        <!-- SLIDE 3 -->
+                        <li data-index="rs-3" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/slide3_bg-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-description="">
+                            <!-- MAIN IMAGE -->
+                            <img src="{{ asset('images/slide3_bg.jpg') }}" alt="" width="1800" height="584" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                            <!-- LAYERS -->
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption Fashion-BigDisplay tp-resizeme" id="slide-3-layer-2" data-x="312" data-y="128" data-width="['648']" data-height="['149']" data-transform_idle="o:1;" data-transform_in="y:bottom;s:1200;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;e:Cubic.easeOut;s:300;e:Cubic.easeOut;" data-start="500" data-splitin="lines" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.1">Playing with family & friends</div>
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption Fashion-BigDisplay tp-resizeme" id="slide-3-layer-1" data-x="257" data-y="80" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:-50px;opacity:0;s:2300;e:Power4.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="500" data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05">playing</div>
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption tp-resizeme" id="slide-3-layer-3" data-x="315" data-y="306" data-width="['584']" data-height="['auto']" data-visibility="['on','on','off','off']" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1800;e:Power4.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="500" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-captionhidden="on">And making new friends along the way, is always fun, and is something that tennis is great at providing.</div>
+                            <!-- LAYER NR. 4 -->
+                            <div class="tp-caption rev-btn" id="slide-3-layer-6" data-x="316" data-y="387" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:0;e:Linear.easeNone;" data-style_hover="c:rgba(255, 255, 255, 1.00);bg:rgba(129, 171, 27, 1.00);cursor:pointer;" data-transform_in="opacity:0;s:600;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="1700" data-splitin="none" data-splitout="none" data-responsive_offset="on">Learn more</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- END REVOLUTION SLIDER -->
+            {% block cont %}
+        </div>
+       </center>
+        <!-- /Revolution Slider section -->
+        <!-- Page Content Wrap -->
+        <div class="page_content_wrap page_paddings_no">
+            <div class="content_wrap">
+                <!-- Content -->
+                <div class="content">
+                    <div class="post_item post_item_single page type-page">
+                        <div class="post_content">
+                            <!-- General info section -->
+                            <div class="padding_top_20_imp padding_bottom_20_imp">
+                                <div class="sc_section general_info_section margin_top_huge margin_bottom_huge">
+                                    <div class="sc_section_inner">
+                                        <div class="sc_section_overlay">
+                                            <div class="sc_section_content padding_on">
+                                                <div class="columns_wrap sc_columns columns_nofluid no_margins sc_columns_count_2">
+                                                    <div class="column-1_2 sc_column_item sc_column_item_1 odd first"></div><div class="column-1_2 sc_column_item sc_column_item_2 custom_shadow1 even text_align_center">
+                                                        <div class="sc_column_item_inner add_color_2_bg">
+                                                            <h3 class="sc_title sc_title_regular margin_top_medium margin_bottom_tiny color_white font_weight_600 font_size_3_929em">Welcome</h3>
+                                                            <h6 class="sc_title sc_title_regular sc_align_center text_uppercase accent1 margin_bottom_medium ltr-spc2 text_align_center font_weight_400 font_size_0_857em">to our tennis club</h6>
+                                                            <div class="margin_top_tiny-">
+                                                                <p class="color_white width_90_per margin_auto">Founded in 1964 by a team of professional tennis players our club is based in one of the most picturesque areas of the country and is ideal for family membership.</p>
+                                                            </div>
+                                                            <figure class="sc_image sc_image_shape_square margin_bottom_medium">
+                                                                <img src="{{ asset('images/signature.png') }}" alt="" />
+                                                            </figure>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /General info section -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Content -->
+            <div class="content">
+                <div class="post_item post_item_single page type-page">
+                    <div class="post_content">
+                        <!-- Matches section -->
+                        <!-- /Matches section -->
+                    </div>
+                </div>
+            </div>
+            <div class="content_wrap">
+                <!-- Content -->
+                <div class="content">
+                    <div class="post_item post_item_single page type-page">
+
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="post_item post_item_single page type-page">
+                    <div class="post_content">
+
+                    </div>
+                </div>
+            </div>
+            <div class="content_wrap">
+                <!-- Content -->
+                <div class="content">
+
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="post_item post_item_single page type-page">
+                    <div class="post_content" style="alignment: center" id="reserve">
+                        <!-- Advertisement section -->
+
+
+
+
+
+                        <!-- /Club membership -->
+                        <!-- Google Map -->
+                        <div class="sc_section">
+                            <div class="sc_section_inner">
+                                <div id="sc_googlemap_1_wrap" class="sc_googlemap_wrap">
+                                    <div id="sc_googlemap_1" class="sc_googlemap width_100_per height_590" data-zoom="10" data-style="custom">
+                                        <div id="sc_googlemap_1_1" class="sc_googlemap_marker" data-title="U.S. Bank" data-description="&lt;p&gt;&lt;strong&gt;U.S. Bank&lt;/strong&gt;&lt;br /&gt;A reliable bank with ancient traditions and friendly staff&lt;/p&gt;" data-address="5611 West Madison Street, Chicago, IL 60644" data-latlng="" data-point="images/marker.png"></div>
+                                    </div>
+                                    <div class="sc_googlemap_content">
+                                        <div id="sc_form_1_wrap" class="sc_form_wrap">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Google Map -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright_wrap copyright_style_menu">
+            <div class="copyright_wrap_inner">
+                <div class="content_wrap">
+                    <div class="copyright_text">ThemeREX © 2016 All Rights Reserved
+                        <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Copyright -->
+    </div>
+</div>
+
+<!-- Side block with weather plugin -->
+<div id="custom_side_block" class="custom_side_block opened">
+    <span id="csb_toggle" class="icon-rain"></span>
+    <span class="icon-cancel-1"></span>
+    <div>
+        <div id="wpc-weather-id-1" class="wpc-weather-id">
+            <div class="wpc-loading-spinner">
+                <div id="wpc-weather" class="small color_white">
+                    <div class="now">
+                        <div class="location_name">Tunisie</div>
+                        <div class="time_symbol climacon">
+                            <svg id="cloudFill" class="climacon climacon_cloudFill" enable-background="new 15 15 70 70" viewBox="15 15 70 70" y="0px" x="0px">
+                                <g class="climacon_iconWrap climacon_iconWrap-cloud">
+                                    <g class="climacon_componentWrap climacon_componentWrap_cloud">
+                                        <path class="climacon_component climacon_component-stroke climacon_component-stroke_cloud" d="M43.945,65.639c-8.835,0-15.998-7.162-15.998-15.998c0-8.836,7.163-15.998,15.998-15.998c6.004,0,11.229,3.312,13.965,8.203c0.664-0.113,1.338-0.205,2.033-0.205c6.627,0,11.998,5.373,11.998,12c0,6.625-5.371,11.998-11.998,11.998C57.168,65.639,47.143,65.639,43.945,65.639z"></path>
+                                        <path class="climacon_component climacon_component-fill climacon_component-fill_cloud" d="M59.943,61.639c4.418,0,8-3.582,8-7.998c0-4.417-3.582-8-8-8c-1.601,0-3.082,0.481-4.334,1.291c-1.23-5.316-5.973-9.29-11.665-9.29c-6.626,0-11.998,5.372-11.998,11.999c0,6.626,5.372,11.998,11.998,11.998C47.562,61.639,56.924,61.639,59.943,61.639z" fill="#FFFFFF"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="time_temperature">22</div>
+                    </div>
+                    <div class="short_condition">overcast clouds</div>
+                    <div class="forecast">
+                        <div class="first">
+                            <div class="day">Fri</div>
+                            <div class="symbol climacon w800"></div>
+                            <div class="temp_min">15</div>
+                            <div class="temp_max">
+                                <span class="wpc-highlight">27</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Side block with weather plugin -->
+<a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a>
+
+<script type="text/javascript" src="{{ asset('js/jquery/jquery.js') }}"></script>
+
+<script type="text/javascript" src="{{ asset('js/_packed.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/global.min.js') }}"></script>
+
+<script type="text/javascript" src="{{ asset('js/vendor/revslider/jquery.themepunch.tools.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/vendor/revslider/jquery.themepunch.revolution.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/vendor/revslider/extensions/revolution.extension.slideanims.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/vendor/revslider/extensions/revolution.extension.layeranimation.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/vendor/revslider/extensions/revolution.extension.navigation.min.js') }}"></script>
+
+<script type="text/javascript" src="{{ asset('js/vendor/woocommerce/woocommerce.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/vendor/woocommerce/cart-fragments.min.js') }}"></script>
+
+<script type="text/javascript" src="{{ asset('js/core.utils.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/core.init.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/theme.init.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/shortcodes.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/core.messages/core.messages.min.js') }}"></script>
+
+<script type="text/javascript" src="{{ asset('js/swiper/swiper.min.js') }}"></script>
+
+<script type="text/javascript" src="{{ asset('http://maps.google.com/maps/api/js?key=') }}"></script>
+<script type="text/javascript" src="{{ asset('js/core.googlemap.min.js') }}"></script>
+{% endblock%}
+</body>
+
+
+<!-- Mirrored from tennisclub-html.themerex.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Nov 2016 01:22:34 GMT -->
+</html>

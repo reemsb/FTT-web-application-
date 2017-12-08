@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCZcHjNKU9v_dRCRy7EN9CXF2BIHBIEaKs"></script>
+    <script type="text/javascript">
+        var tunis_club= new google.maps.LatLng(36.8360642,9.903306);
+        var  megrine_club =new google.maps.LatLng(36.7707559,10.2368519);
+        var  menzah_club =new google.maps.LatLng(36.8402106,10.1607643);
+        var   bizert_club=new google.maps.LatLng(36.8402479,9.6026501);
+
+        var  kelibia_club =new google.maps.LatLng(36.8402479,9.0423474);
+        var  sousse_club =new google.maps.LatLng(35.820009,10.6239558);
+        var  Monastir_club =new google.maps.LatLng(35.7777534,10.8185506);
+        var   sfax_club=new google.maps.LatLng(34.7344134,10.7129463);
+        var   Hammamet_club=new google.maps.LatLng(36.3978511,10.6178368);
+
+        var marker1,marker2,marker3,marker4,marker5,marker6,marker7,marker8,marker9 ;
+        function initialize()
+        {
+            var mapProp =
+            {
+                center: tunis_club,
+                center: megrine_club,
+                center:menzah_club,
+                center:bizert_club,
+                center:kelibia_club,
+                center:sousse_club,
+                center:Monastir_club,
+                center:sfax_club,
+                center:Hammamet_club,
+
+                zoom: 6,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+
+            var map = new google.maps.Map(document.getElementById('googleMap'), mapProp);
+
+            var marker1 = new google.maps.Marker({
+                position: tunis_club,
+                animation: google.maps.Animation.Bounce,
+            });
+
+            marker1.setMap(map);
+
+            var marker2 = new google.maps.Marker({
+                position: megrine_club,
+                animation: google.maps.Animation.Bounce
+            });
+
+            marker2.setMap(map);
+
+            var marker3 = new google.maps.Marker({
+                position: menzah_club,
+                animation: google.maps.Animation.Bounce
+            });
+
+            marker3.setMap(map);
+            var marker4 = new google.maps.Marker({
+                position: bizert_club,
+                animation: google.maps.Animation.Bounce
+            });
+
+            marker4.setMap(map);
+            var marker5 = new google.maps.Marker({
+                position: kelibia_club,
+                animation: google.maps.Animation.Bounce
+            });
+
+            marker5.setMap(map);
+            var marker6 = new google.maps.Marker({
+                position: sousse_club,
+                animation: google.maps.Animation.Bounce
+            });
+
+            marker6.setMap(map);
+            var marker7 = new google.maps.Marker({
+                position: Monastir_club,
+                animation: google.maps.Animation.Bounce
+            });
+
+            marker7.setMap(map);
+            var marker8 = new google.maps.Marker({
+                position: sfax_club,
+                animation: google.maps.Animation.Bounce
+            });
+
+            marker8.setMap(map);
+            var marker9 = new google.maps.Marker({
+                position: Hammamet_club,
+                animation: google.maps.Animation.Bounce
+            });
+
+            marker9.setMap(map);
+        }
+        google.maps.event.addDomListener(window, 'load',initialize);
+    </script>
+</head>
+<body>
+{% block container %}
+{% endblock %}
+</body>
+</body>
+</html>
+
+
+

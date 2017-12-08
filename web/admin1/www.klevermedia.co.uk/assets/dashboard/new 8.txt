@@ -1,0 +1,15 @@
+public function ParticiperAction($id_e)
+    { $Concours=new Concours();
+        $em=$this->getDoctrine()->getManager();
+        $Concours = $em->getRepository("MyAppUserBundle:Concours")->find($id_e);
+        $Concours-> setCapaciteConcours($Concours->getCapaciteConcours()-1);
+        $em->persist($Concours);
+        $em->flush();
+        $Postulation=new Postulation();
+        $Postulation->setConcoursConcours($Concours);
+        $Postulation->setUserUser($this->getUser());
+        $Postulation->setDatePostulation(new \DateTime('now'));
+        $em->persist($Postulation);
+        $em->flush();
+       return $this->redirectToRoute('my_app_user_list1_concours');
+    }

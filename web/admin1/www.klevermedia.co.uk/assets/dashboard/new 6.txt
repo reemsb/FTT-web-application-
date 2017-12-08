@@ -1,0 +1,10 @@
+<center><form action="#" method="post" style="display: block;width: 300px;float: left">
+        <div class="main-section agile" style="display: block;width: 150px">
+            <div class="login-form" style="display: block;width: 150px;float: left">
+    {% block fos_user_content %}
+    {% endblock fos_user_content %}
+    <a style="background-color:#0d1e30" href="{{ path("fos_user_security_login") }}"/>Annuler</a>
+</div></div>
+</form>
+</center>
+</table>

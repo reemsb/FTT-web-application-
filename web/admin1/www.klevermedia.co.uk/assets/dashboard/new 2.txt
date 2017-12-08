@@ -1,0 +1,27 @@
+<h1>Liste des clubs </h1>
+<table border="1">
+    <tr>
+
+        <th>libelle</th>
+        <th>adresse</th>
+        <th>Ville</th>
+        <th>numero telephone</th>
+        <th>numero fax</th>
+        <th>nbr terrain</th>
+        <th>budget</th>
+        <th>Suppression</th>
+        <th>Mise à jour</th>
+    </tr>
+    {% for club in clubs %}
+        <tr>
+            <td>{{ club.libelleClub }}</td>
+            <td>{{ club.adresseClub }}</td>
+            <td>{{ club.villeClub}}</td>
+            <td>{{ club.numeroTelephone }}</td>
+            <td>{{ club.numeroFax }}</td>
+            <td>{{ club.nbrTerrain }}</td>
+            <td>{{ club.budgetClub }}</td>
+            <td><a href="{{ path('DeleteClub',{'id':club.id})}}">Supprimer</a></td>
+        </tr>
+    {% endfor %}
+</table>

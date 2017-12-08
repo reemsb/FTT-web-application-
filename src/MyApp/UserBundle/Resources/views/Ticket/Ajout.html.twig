@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="">
+
+<!-- Mirrored from www.klevermedia.co.uk/assets/dashboard/dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Nov 2016 19:15:47 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>FTT</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="{{ asset('admin1/css/style.css') }}" media="all" />
+    <!--[if IE]><link rel="stylesheet" href="{{ asset('admin1/css/ie.css') }}" media="all" /><![endif]-->
+    <!--[if IE 9]><link rel="stylesheet" href="{{ asset('admin1/css/ie9.css') }}" media="all" /><![endif]-->
+    <!--[if lt IE 9]><link rel="stylesheet" href="{{ asset('admin1/css/lt-ie-9.css') }}" media="all" /><![endif]-->
+    <script src="{{ asset('admin1/../../../ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js') }}"></script>
+    <script src="{{ asset('admin1/js/jquery.wysiwyg.js') }}"></script>
+    <script src="{{ asset('admin1/js/custom.js') }}"></script>
+    <script src="{{ asset('admin1/js/cycle.js') }}"></script>
+    <script src="{{ asset('admin1/js/jquery.checkbox.min.js') }}"></script>
+    <script src="{{ asset('admin1/js/flot.js') }}"></script>
+    <script src="{{ asset('admin1/js/flot.resize.js') }}"></script>
+    <script src="{{ asset('admin1/js/flot-time.js') }}"></script>
+    <script src="{{ asset('admin1/js/flot-pie.js') }}"></script>
+    <script src="{{ asset('admin1/js/flot-graphs.js') }}"></script>
+    <script src="{{ asset('admin1/js/cycle.js') }}"></script>
+    <script src="{{ asset('admin1/js/jquery.tablesorter.min.js') }}"></script>
+
+    <script src="{{ asset('admin1/jquery.js') }}"></script>
+    <script>
+        $(document).ready (function() {
+            $("#submenu1").hide();
+            $("#submenu2").hide();
+            $("#submenu3").hide();
+            $("#submenu4").hide();
+            $("#submenu5").hide();
+            $("#submenu6").hide();
+
+            $("#bb").hover(function () {
+                $("#submenu1").toggle();
+            })
+            $("#submenu1").hover(function () {
+                $("#submenu1").toggle();
+            })
+            $("#bb4").hover(function () {
+                $("#submenu4").toggle();
+            })
+            $("#submenu4").hover(function () {
+                $("#submenu4").toggle();
+            })
+            $("#bb5").hover(function () {
+                $("#submenu5").toggle();
+            })
+            $("#submenu5").hover(function () {
+                $("#submenu5").toggle();
+            })
+            $("#bb6").hover(function () {
+                $("#submenu6").toggle();
+            })
+            $("#submenu6").hover(function () {
+                $("#submenu6").toggle();
+            })
+            $("#bb1").hover(function () {
+                $("#submenu2").toggle();
+            })
+            $("#submenu2").hover(function () {
+                $("#submenu2").toggle();
+            })
+            $("#bb3").hover(function () {
+                $("#submenu3").toggle();
+            })
+            $("#submenu3").hover(function () {
+                $("#submenu3").toggle();
+            })
+
+
+        })
+    </script>
+    <style type="text/css">
+        #kilma
+        {color: #1a98d3;
+            font-family: verdana;
+            font-size: 300%;
+            text-align: center;}
+    </style>
+</head>
+<body>
+<div class="testing">
+    <header class="main">
+        <h1><strong>Espace</strong> administrateur</h1>
+        <input type="text" value="search" />
+    </header>
+    <section class="user">
+        <div class="profile-img">
+            <p><img src="{{ asset('admin1/images/user1.png') }}" alt="" height="40" width="40" /> Bienvenue <span class="label label-warning" style="color: #edde34">{{ app.user.username }}</span><br><span class="user-circle-online btn btn-success btn-circle " style="color: #66dd66">En ligne</span>&nbsp;
+            </p>
+
+        </div>
+        <div class="buttons">
+            <button class="ico-font">&#59157;</button>
+
+            <span class="button blue"><a href="{{ path("my_app_user_logout") }}"/><i class="fa fa-power-off"></i> Logout</a> </span>
+        </div>
+    </section>
+</div>
+<nav>
+    <ul>
+        <li class="section"><a href="{{ path('my_app_user_homepage')}}"><span class="icon">&#59176;</span>Dashboard</a></li>
+        <li id="rim">
+            <a href="login" id="bb"><span class="icon" >&#128101;</span>Gestion Personnels</a>
+            <ul id="submenu1">
+                <li><a href="page-new.html" id="1">Arbitre</a></li>
+                <li><a href="page-timeline.html" id="2">Medecin</a></li>
+                <li><a href="page-timeline.html" id="3">Resonsable anti_dopage</a></li>
+            </ul>
+        </li>
+        <li><a href="users.html" id="bb3"><span class="icon">&#128101;</span> Joueur <span class="pip">3</span></a>
+            <ul id="submenu3">
+                <li><a href="page-new.html">Rapport Medical</a></li>
+                <li><a href="page-timeline.html">Sanction</a></li>
+
+            </ul></li>
+        <li><a href="users.html" id="bb4"><span class="icon">&#128101;</span> Club <span class="pip">3</span></a>
+            <ul id="submenu4">
+                <li><a href="{{ path('AjoutClub') }}">Ajouter</a></li>
+                <li><a href="{{ path('Clubbase') }}">Manipuler data</a></li>
+
+            </ul>
+        </li>
+        <li><a href="users.html" id="bb5"><span class="icon">&#128101;</span> Stade <span class="pip">3</span></a>
+            <ul id="submenu5">
+                <li><a href="{{ path('AjoutStade') }}">Ajouter</a></li>
+                <li><a href="{{ path('Stadebase') }}">Manipuler data</a></li>
+            </ul>
+        </li>
+        <li><a href="users.html" ><span class="icon">&#128101;</span> Transaction <span class="pip">3</span></a>
+
+        </li>
+        <li><a href="users.html" id="bb6"><span class="icon">&#127748;</span> Ticket <span class="pip">3</span></a>
+            <ul id="submenu6">
+                <li><a href="{{ path('AjoutTicket') }}">Ajouter</a></li>
+                <li><a href="{{ path('Ticketbase') }}">Manipuler data</a></li>
+            </ul>
+        </li>
+        <li><a href="users.html"><span class="icon">&#128101;</span> Tournoi <span class="pip">3</span></a></li>
+        <li><a href="users.html"><span class="icon">&#128101;</span> Reclamation <span class="pip">3</span></a></li>
+        <li>
+            <a href="files.html" id="bb1"><span class="icon" >&#127748;</span> Manifestation <span class="pip">7</span></a>
+            <ul id="submenu2">
+                <li><a href="files-upload.html">Concours</a></li>
+                <li><a href="files-upload.html">Evenement</a></li>
+                <li><a href="files.html">Formation</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="blog-timeline.html"><span class="icon">&#59160;</span> Match <span class="pip">12</span></a>
+            <ul class="submenu">
+                <li><a href="blog-new.html">New post</a></li>
+                <li><a href="blog-table.html">All posts</a></li>
+                <li><a href="comments-timeline.html">View comments</a></li>
+            </ul>
+        </li>
+        <li><a href="statistics.html"><span class="icon">&#128202;</span> Statistics</a></li>
+
+    </ul>
+</nav>
+
+<section class="alert">
+    <div class="green">
+        <p>Hi <span class="label label-warning" style="color: #edde34">{{ app.user.username }}</span>, you have <a href="#">3 new pages</a> and <a href="#">16 comments</a> to approve, better get going!</p>
+        <span class="close">&#10006;</span>
+    </div>
+</section>
+<section class="content">
+
+    <div class="content cycle">
+        <div style="color: #0000F0" id="kilma"> <h1>Ajouter un ticket  : </h1> </div> <br><br>
+
+
+            {{ form(form) }}
+            {{ form_errors(form) }}
+
+    </div>
+
+</section>
+
+</body>
+
+<!-- Mirrored from www.klevermedia.co.uk/assets/dashboard/dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Nov 2016 19:16:05 GMT -->
+</html>

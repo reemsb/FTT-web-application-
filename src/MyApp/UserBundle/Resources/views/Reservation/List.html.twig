@@ -1,0 +1,25 @@
+{% extends "MyAppUserBundle:Client:Client.html.twig" %}
+{% block contenu %}
+<div  id="kilma"> <h1> votre reservation est effectuée avec  succées: </h1> </div> <br><br> <br>
+
+<table border="1">
+    <tr>
+
+        <th>date de recupération du ticket</th>
+        <th>le ticket:</th>
+        <th>block</th>
+        <th>seat</th>
+        <th>suppression</th>
+
+
+    </tr>
+
+        <tr>
+            <td>{{ reservation.dateRecuperationTicket }}</td>
+            <td>{{ reservation.ticketTicket}}</td>
+            <td>{{ reservation.block }}</td>
+            <td>{{ reservation.seat}}</td>
+        </tr>
+
+</table>
+{% endblock %}

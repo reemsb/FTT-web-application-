@@ -1,0 +1,67 @@
+my_app_user_homepage:
+    path:     /
+    defaults: { _controller: MyAppUserBundle:Default:index }
+my_app_user_Client:
+    path:     /Client
+    defaults: { _controller: MyAppUserBundle:Client:index }
+my_app_user_Admin:
+    path:     /Admin
+    defaults: { _controller: MyAppUserBundle:Admin:index }
+my_app_user_Arbitre:
+    path:     /Arbitre
+    defaults: { _controller: MyAppUserBundle:Arbitre:index }
+my_app_user_Medecin:
+    path:     /Medecin
+    defaults: { _controller: MyAppUserBundle:Medecin:index }
+my_app_user_Responsable:
+    path:     /Responsable
+    defaults: { _controller: MyAppUserBundle:Responsable:index }
+my_app_user_logout:
+    path:     /logout
+AjoutClub:
+    path:     /Ajout
+    defaults: {_controller: MyAppUserBundle:Club:AjoutClub}
+Clubbase:
+    path:     /Clubbase
+    defaults: { _controller: MyAppUserBundle:Club:listeClub}
+DeleteClub:
+    path:     /Clubbase/{id}
+    defaults: {_controller: MyAppUserBundle:Club:DeleteClub}
+Updateclub:
+    path:     /Update/{id}
+    defaults: { _controller: MyAppUserBundle:Club:UpdateClub}
+mymap_homepage:
+    path:     /map
+    defaults: { _controller: MyAppUserBundle:Default:index }
+AjoutTicket:
+    path:     /AjoutTicket
+    defaults: {_controller: MyAppUserBundle:Ticket:AjoutTicket}
+Ticketbase:
+    path:     /Ticketbase
+    defaults: { _controller: MyAppUserBundle:Ticket:listeTicket}
+DeleteTicket:
+    path:     /Ticketbase/{id}
+    defaults: {_controller: MyAppUserBundle:Ticket:DeleteTicket}
+UpdateTicket:
+    path:     /UpdateTicket/{id}
+    defaults: { _controller: MyAppUserBundle:Ticket:UpdateTicket}
+AjoutStade:
+    path:     /AjoutStade
+    defaults: {_controller: MyAppUserBundle:Stade:AjoutStade}
+Stadebase:
+    path:     /Stadebase
+    defaults: { _controller: MyAppUserBundle:Stade:listeStade}
+DeleteStade:
+    path:     /Stadebase/{id}
+    defaults: {_controller: MyAppUserBundle:Stade:DeleteStade}
+UpdateStade:
+    path:     /UpdateStade/{id}
+    defaults: { _controller: MyAppUserBundle:Stade:UpdateStade}
+AjoutReservation:
+    path:     /AjoutReservation
+    defaults: {_controller: MyAppUserBundle:Reservation:AjoutReservation}
+Reservationbase:
+    path:     /Reservationbase
+    defaults: { _controller: MyAppUserBundle:Reservation:listeReservation}
+
+

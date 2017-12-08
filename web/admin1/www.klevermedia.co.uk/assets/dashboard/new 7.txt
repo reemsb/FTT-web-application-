@@ -1,0 +1,6 @@
+->add('dateDeNaissance', DateType::class, array('required' => false, 'attr' => array('style' => 'width:330px','style'=>'color:red' ),
+                'widget' => 'choice', 'format' => 'dd-MM-yyyy', 'years' => range(1970,2017)))
+->add('clubClub',EntityType::class, array(
+                'class'=>'MyAppUserBundle:Club',
+                'choice_label'=>'libelleClub',
+                'multiple'=>false,'label'=>'Libelle_Club'))

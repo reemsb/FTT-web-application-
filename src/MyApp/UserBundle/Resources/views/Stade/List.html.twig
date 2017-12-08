@@ -1,0 +1,33 @@
+{% extends "MyAppUserBundle:Admin:Admin.html.twig" %}
+{% block contenu %}
+    <div  id="kilma"> <h1> les listes des  stades : </h1> </div> <br><br> <br>
+
+        <table border="1">
+            <tr>
+
+                <th>libelle stade</th>
+                <th>adresse du stade</th>
+                <th>ville du stade</th>
+                <th>type du terrain</th>
+                <th>capacité du stade</th>
+                <th>suppression</th>
+                <th>update</th>
+
+            </tr>
+            {% for stade in stades %}
+                <tr>
+                    <td>{{ stade.libelleStade }}</td>
+                    <td>{{ stade.adresseStade }}</td>
+                    <td>{{ stade.villeStade }}</td>
+                    <td>{{ stade.typeStade}}</td>
+                    <td>{{ stade.capaciteStade}}</td>
+
+                    <td><a href="{{ path('DeleteStade',{'id':stade.idStade})}}">Supprimer</a></td>
+                    <td><a href="{{ path('UpdateStade',{'id':stade.idStade})}}">update</a></td>
+
+                </tr>
+            {% endfor %}
+        </table>
+
+
+{% endblock%}

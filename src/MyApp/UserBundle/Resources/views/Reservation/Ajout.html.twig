@@ -1,0 +1,10 @@
+{% extends "MyAppUserBundle:Client:Client.html.twig" %}
+{% block cont %}
+    <div > <h1>reserver un ticket : </h1> </div> <br><br> <br>
+    <div style="display:block">
+        <form style="display: block">
+        {{ form(form) }}
+        {{ form_errors(form) }}
+        </form>
+    </div>
+{% endblock%}
